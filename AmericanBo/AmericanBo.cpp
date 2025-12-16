@@ -10,6 +10,8 @@ bool Isnum(char sym)
     return true;
 }
 
+// В 84 он говорит про инт маинт и что он должен вернуть, что то
+// Я не понимаю как я должен это отобразить
 int main(int argc, char* argv[])
 {
 	SetConsoleCP(1251);
