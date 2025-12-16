@@ -18,11 +18,13 @@ int main(int argc, char* argv[])
 	{
 		std::cout << "\n===============================================================\n";
 		std::cout << argv[1] << " " << argv[2] << " " << argv[3] << " = " << atoi(argv[1]) + atoi(argv[3]) << std::endl;
+		return 0;
 	}
 	else if (argc == 4 && Isnum(*argv[1]) && Isnum(*argv[3]) && *argv[2] == '-')
 	{
 		std::cout << "\n===============================================================\n";
 		std::cout << argv[1] << " " << argv[2] << " " << argv[3] << " = " << atoi(argv[1]) - atoi(argv[3]) << std::endl;
+		return 0;
 	}
 	else
 	{
